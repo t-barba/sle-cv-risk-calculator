@@ -32,9 +32,6 @@ The study identified several significant predictors of cardiovascular events in 
 - **Inaugural cutaneous signs** (HR=2.69, p=0.011)
 - Inaugural joint involvement (HR=0.55, p=0.043) - *Protective factor*
 
-### Main Result
-SLE patients exhibited **8.25× higher cardiovascular risk** (HR=8.25 [5.90-11.53], p<0.001) compared to the general population (UK Biobank cohort, n=48,104), even after adjusting for traditional cardiovascular risk factors.
-
 ## 🚀 Features
 
 - **Interactive risk calculator** with real-time predictions
