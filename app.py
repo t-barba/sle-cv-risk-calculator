@@ -1,3 +1,6 @@
+# Copyright (c) 2024 Thomas Barba, Hospices Civils de Lyon
+# Licensed under the MIT License - see LICENSE file for details
+
 import streamlit as st
 import numpy as np
 import pandas as pd
