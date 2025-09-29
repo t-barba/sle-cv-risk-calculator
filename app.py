@@ -270,34 +270,7 @@ if model is not None:
                 
                 st.plotly_chart(fig_surv, use_container_width=True)
             
-            # Recommendations
-            st.divider()
-            st.subheader("💡 Clinical Recommendations")
-            
-            recommendations = []
-            
-            if risk_5y >= 10:
-                recommendations.append("🔴 **High cardiovascular risk** - Consider intensive prevention")
-                recommendations.append("• Strict control of traditional risk factors")
-                recommendations.append("• Consider antiplatelet therapy (discuss with cardiologist)")
-                recommendations.append("• Regular cardiovascular follow-up recommended")
-            elif risk_5y >= 5:
-                recommendations.append("⚠️ **Moderate cardiovascular risk** - Enhanced monitoring recommended")
-                recommendations.append("• Optimize control of traditional risk factors")
-                recommendations.append("• Consider cardiovascular screening")
-            else:
-                recommendations.append("✅ **Low cardiovascular risk** - Standard follow-up")
-                recommendations.append("• Continue monitoring traditional risk factors")
-            
-            if apl:
-                recommendations.append("• APL positive: Consider anticoagulation/antiplatelet therapy")
-            
-            if cutaneous:
-                recommendations.append("• Inaugural cutaneous signs: Consider more aggressive immunosuppression")
-            
-            for rec in recommendations:
-                st.markdown(rec)
-            
+
             # Export section
             st.divider()
             col_export1, col_export2, col_export3 = st.columns([1, 1, 1])
