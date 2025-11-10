@@ -216,7 +216,7 @@ if model is not None:
                 
                 # Comparison chart
                 comparison_data = {
-                    'Category': ['Your Patient', 'Average SLE', 'General Population'],
+                    'Category': ['Your Patient', 'Average SLE', 'SLE baseline risk'],
                     'Risk (%)': [risk_5y, 5.7, 2.7],
                     'Color': ['#dc3545', '#ffc107', '#28a745']
                 }
