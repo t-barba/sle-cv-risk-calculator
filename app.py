@@ -62,7 +62,7 @@ st.markdown("""
 
 # Header
 st.markdown('<p class="main-header">🩺 SLE Cardiovascular Risk Calculator</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">LESLY Cohort • Hospices Civils de Lyon</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header"> based on the LESLY Cohort • Hospices Civils de Lyon</p>', unsafe_allow_html=True)
 
 # Load model
 @st.cache_resource
